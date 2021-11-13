@@ -8,6 +8,7 @@ const NewQuestionPage: BlitzPage = () => {
   const router = useRouter()
   const [createQuestionMutation] = useMutation(createQuestion)
 
+  // @ts-ignore
   return (
     <div>
       <h1>Create New Question</h1>
