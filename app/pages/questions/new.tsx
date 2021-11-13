@@ -15,6 +15,7 @@ const NewQuestionPage: BlitzPage = () => {
 
       <QuestionForm
         submitText="Create Question"
+        // @ts-ignore
         schema={createQuestionSchema}
         initialValues={{}}
         onSubmit={async (values) => {
