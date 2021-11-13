@@ -17,6 +17,7 @@ export const Question = () => {
       await updateChoiceMutation({ id })
       refetch()
     } catch (error) {
+      // @ts-ignore
       alert("Error updating choice " + JSON.stringify((error, null, 2)))
     }
   }
